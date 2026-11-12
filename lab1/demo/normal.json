@@ -1,0 +1,980 @@
+{
+  "scenario": "normal",
+  "policy": "nearest",
+  "horizon": 120,
+  "elapsed": 12,
+  "profiles": {
+    "courier_1": {
+      "position": [
+        0,
+        0
+      ],
+      "capacity": 3,
+      "speed": 1
+    },
+    "courier_2": {
+      "position": [
+        8,
+        0
+      ],
+      "capacity": 6,
+      "speed": 1
+    },
+    "courier_3": {
+      "position": [
+        4,
+        8
+      ],
+      "capacity": 4,
+      "speed": 2
+    }
+  },
+  "orders": [
+    {
+      "id": "O1",
+      "release": 0,
+      "pickup": [
+        1,
+        0
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "weight": 2,
+      "deadline": 8
+    },
+    {
+      "id": "O2",
+      "release": 0,
+      "pickup": [
+        7,
+        0
+      ],
+      "destination": [
+        7,
+        4
+      ],
+      "weight": 5,
+      "deadline": 10
+    },
+    {
+      "id": "O3",
+      "release": 1,
+      "pickup": [
+        4,
+        7
+      ],
+      "destination": [
+        2,
+        6
+      ],
+      "weight": 3,
+      "deadline": 7
+    },
+    {
+      "id": "O4",
+      "release": 2,
+      "pickup": [
+        0,
+        1
+      ],
+      "destination": [
+        1,
+        5
+      ],
+      "weight": 2,
+      "deadline": 14
+    },
+    {
+      "id": "O5",
+      "release": 3,
+      "pickup": [
+        6,
+        6
+      ],
+      "destination": [
+        8,
+        8
+      ],
+      "weight": 4,
+      "deadline": 16
+    },
+    {
+      "id": "O6",
+      "release": 4,
+      "pickup": [
+        3,
+        3
+      ],
+      "destination": [
+        5,
+        1
+      ],
+      "weight": 1,
+      "deadline": 13
+    }
+  ],
+  "states": {
+    "O1": "delivered",
+    "O2": "delivered",
+    "O3": "delivered",
+    "O4": "delivered",
+    "O5": "delivered",
+    "O6": "delivered"
+  },
+  "assignment": {
+    "O1": "courier_1",
+    "O2": "courier_2",
+    "O3": "courier_3",
+    "O4": "courier_3",
+    "O5": "courier_2",
+    "O6": "courier_1"
+  },
+  "completed": {
+    "O3": 3,
+    "O1": 5,
+    "O2": 5,
+    "O4": 9,
+    "O6": 10,
+    "O5": 12
+  },
+  "metrics": {
+    "total": 6,
+    "delivered": 6,
+    "pending": 0,
+    "late": 0,
+    "mean_delivery_time": 5.667,
+    "messages": 60,
+    "travel": 38
+  },
+  "couriers": [
+    {
+      "id": "courier_1",
+      "position": [
+        5,
+        1
+      ],
+      "state": "idle",
+      "travel": 10,
+      "capacity": 3,
+      "speed": 1
+    },
+    {
+      "id": "courier_2",
+      "position": [
+        8,
+        8
+      ],
+      "state": "idle",
+      "travel": 12,
+      "capacity": 6,
+      "speed": 1
+    },
+    {
+      "id": "courier_3",
+      "position": [
+        1,
+        5
+      ],
+      "state": "idle",
+      "travel": 16,
+      "capacity": 4,
+      "speed": 2
+    }
+  ],
+  "trace": [
+    {
+      "time": 0,
+      "sender": "source",
+      "receiver": "dispatcher",
+      "kind": "REQUEST",
+      "payload": {
+        "id": "O1",
+        "release": 0,
+        "pickup": [
+          1,
+          0
+        ],
+        "destination": [
+          3,
+          2
+        ],
+        "weight": 2,
+        "deadline": 8
+      }
+    },
+    {
+      "time": 0,
+      "sender": "source",
+      "receiver": "dispatcher",
+      "kind": "REQUEST",
+      "payload": {
+        "id": "O2",
+        "release": 0,
+        "pickup": [
+          7,
+          0
+        ],
+        "destination": [
+          7,
+          4
+        ],
+        "weight": 5,
+        "deadline": 10
+      }
+    },
+    {
+      "time": 0,
+      "sender": "dispatcher",
+      "receiver": "courier_1",
+      "kind": "ASSIGN",
+      "payload": {
+        "id": "O1",
+        "release": 0,
+        "pickup": [
+          1,
+          0
+        ],
+        "destination": [
+          3,
+          2
+        ],
+        "weight": 2,
+        "deadline": 8
+      }
+    },
+    {
+      "time": 0,
+      "sender": "dispatcher",
+      "receiver": "courier_2",
+      "kind": "ASSIGN",
+      "payload": {
+        "id": "O2",
+        "release": 0,
+        "pickup": [
+          7,
+          0
+        ],
+        "destination": [
+          7,
+          4
+        ],
+        "weight": 5,
+        "deadline": 10
+      }
+    },
+    {
+      "time": 0,
+      "sender": "courier_1",
+      "receiver": "dispatcher",
+      "kind": "ACCEPT",
+      "payload": {
+        "id": "O1"
+      }
+    },
+    {
+      "time": 0,
+      "sender": "courier_2",
+      "receiver": "dispatcher",
+      "kind": "ACCEPT",
+      "payload": {
+        "id": "O2"
+      }
+    },
+    {
+      "time": 1,
+      "sender": "courier_1",
+      "receiver": "dispatcher",
+      "kind": "PICKED_UP",
+      "payload": {
+        "id": "O1"
+      }
+    },
+    {
+      "time": 1,
+      "sender": "courier_1",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          1,
+          0
+        ],
+        "idle": false
+      }
+    },
+    {
+      "time": 1,
+      "sender": "courier_2",
+      "receiver": "dispatcher",
+      "kind": "PICKED_UP",
+      "payload": {
+        "id": "O2"
+      }
+    },
+    {
+      "time": 1,
+      "sender": "courier_2",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          7,
+          0
+        ],
+        "idle": false
+      }
+    },
+    {
+      "time": 1,
+      "sender": "source",
+      "receiver": "dispatcher",
+      "kind": "REQUEST",
+      "payload": {
+        "id": "O3",
+        "release": 1,
+        "pickup": [
+          4,
+          7
+        ],
+        "destination": [
+          2,
+          6
+        ],
+        "weight": 3,
+        "deadline": 7
+      }
+    },
+    {
+      "time": 1,
+      "sender": "dispatcher",
+      "receiver": "courier_3",
+      "kind": "ASSIGN",
+      "payload": {
+        "id": "O3",
+        "release": 1,
+        "pickup": [
+          4,
+          7
+        ],
+        "destination": [
+          2,
+          6
+        ],
+        "weight": 3,
+        "deadline": 7
+      }
+    },
+    {
+      "time": 1,
+      "sender": "courier_3",
+      "receiver": "dispatcher",
+      "kind": "ACCEPT",
+      "payload": {
+        "id": "O3"
+      }
+    },
+    {
+      "time": 2,
+      "sender": "courier_1",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          2,
+          0
+        ],
+        "idle": false
+      }
+    },
+    {
+      "time": 2,
+      "sender": "courier_2",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          7,
+          1
+        ],
+        "idle": false
+      }
+    },
+    {
+      "time": 2,
+      "sender": "courier_3",
+      "receiver": "dispatcher",
+      "kind": "PICKED_UP",
+      "payload": {
+        "id": "O3"
+      }
+    },
+    {
+      "time": 2,
+      "sender": "courier_3",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          3,
+          7
+        ],
+        "idle": false
+      }
+    },
+    {
+      "time": 2,
+      "sender": "source",
+      "receiver": "dispatcher",
+      "kind": "REQUEST",
+      "payload": {
+        "id": "O4",
+        "release": 2,
+        "pickup": [
+          0,
+          1
+        ],
+        "destination": [
+          1,
+          5
+        ],
+        "weight": 2,
+        "deadline": 14
+      }
+    },
+    {
+      "time": 3,
+      "sender": "courier_1",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          3,
+          0
+        ],
+        "idle": false
+      }
+    },
+    {
+      "time": 3,
+      "sender": "courier_2",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          7,
+          2
+        ],
+        "idle": false
+      }
+    },
+    {
+      "time": 3,
+      "sender": "courier_3",
+      "receiver": "dispatcher",
+      "kind": "DELIVERED",
+      "payload": {
+        "id": "O3"
+      }
+    },
+    {
+      "time": 3,
+      "sender": "courier_3",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          2,
+          6
+        ],
+        "idle": true
+      }
+    },
+    {
+      "time": 3,
+      "sender": "source",
+      "receiver": "dispatcher",
+      "kind": "REQUEST",
+      "payload": {
+        "id": "O5",
+        "release": 3,
+        "pickup": [
+          6,
+          6
+        ],
+        "destination": [
+          8,
+          8
+        ],
+        "weight": 4,
+        "deadline": 16
+      }
+    },
+    {
+      "time": 3,
+      "sender": "dispatcher",
+      "receiver": "courier_3",
+      "kind": "ASSIGN",
+      "payload": {
+        "id": "O4",
+        "release": 2,
+        "pickup": [
+          0,
+          1
+        ],
+        "destination": [
+          1,
+          5
+        ],
+        "weight": 2,
+        "deadline": 14
+      }
+    },
+    {
+      "time": 3,
+      "sender": "courier_3",
+      "receiver": "dispatcher",
+      "kind": "ACCEPT",
+      "payload": {
+        "id": "O4"
+      }
+    },
+    {
+      "time": 4,
+      "sender": "courier_1",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          3,
+          1
+        ],
+        "idle": false
+      }
+    },
+    {
+      "time": 4,
+      "sender": "courier_2",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          7,
+          3
+        ],
+        "idle": false
+      }
+    },
+    {
+      "time": 4,
+      "sender": "courier_3",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          0,
+          6
+        ],
+        "idle": false
+      }
+    },
+    {
+      "time": 4,
+      "sender": "source",
+      "receiver": "dispatcher",
+      "kind": "REQUEST",
+      "payload": {
+        "id": "O6",
+        "release": 4,
+        "pickup": [
+          3,
+          3
+        ],
+        "destination": [
+          5,
+          1
+        ],
+        "weight": 1,
+        "deadline": 13
+      }
+    },
+    {
+      "time": 5,
+      "sender": "courier_1",
+      "receiver": "dispatcher",
+      "kind": "DELIVERED",
+      "payload": {
+        "id": "O1"
+      }
+    },
+    {
+      "time": 5,
+      "sender": "courier_1",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          3,
+          2
+        ],
+        "idle": true
+      }
+    },
+    {
+      "time": 5,
+      "sender": "courier_2",
+      "receiver": "dispatcher",
+      "kind": "DELIVERED",
+      "payload": {
+        "id": "O2"
+      }
+    },
+    {
+      "time": 5,
+      "sender": "courier_2",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          7,
+          4
+        ],
+        "idle": true
+      }
+    },
+    {
+      "time": 5,
+      "sender": "courier_3",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          0,
+          4
+        ],
+        "idle": false
+      }
+    },
+    {
+      "time": 5,
+      "sender": "dispatcher",
+      "receiver": "courier_2",
+      "kind": "ASSIGN",
+      "payload": {
+        "id": "O5",
+        "release": 3,
+        "pickup": [
+          6,
+          6
+        ],
+        "destination": [
+          8,
+          8
+        ],
+        "weight": 4,
+        "deadline": 16
+      }
+    },
+    {
+      "time": 5,
+      "sender": "dispatcher",
+      "receiver": "courier_1",
+      "kind": "ASSIGN",
+      "payload": {
+        "id": "O6",
+        "release": 4,
+        "pickup": [
+          3,
+          3
+        ],
+        "destination": [
+          5,
+          1
+        ],
+        "weight": 1,
+        "deadline": 13
+      }
+    },
+    {
+      "time": 5,
+      "sender": "courier_2",
+      "receiver": "dispatcher",
+      "kind": "ACCEPT",
+      "payload": {
+        "id": "O5"
+      }
+    },
+    {
+      "time": 5,
+      "sender": "courier_1",
+      "receiver": "dispatcher",
+      "kind": "ACCEPT",
+      "payload": {
+        "id": "O6"
+      }
+    },
+    {
+      "time": 6,
+      "sender": "courier_1",
+      "receiver": "dispatcher",
+      "kind": "PICKED_UP",
+      "payload": {
+        "id": "O6"
+      }
+    },
+    {
+      "time": 6,
+      "sender": "courier_1",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          3,
+          3
+        ],
+        "idle": false
+      }
+    },
+    {
+      "time": 6,
+      "sender": "courier_2",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          6,
+          4
+        ],
+        "idle": false
+      }
+    },
+    {
+      "time": 6,
+      "sender": "courier_3",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          0,
+          2
+        ],
+        "idle": false
+      }
+    },
+    {
+      "time": 7,
+      "sender": "courier_1",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          4,
+          3
+        ],
+        "idle": false
+      }
+    },
+    {
+      "time": 7,
+      "sender": "courier_2",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          6,
+          5
+        ],
+        "idle": false
+      }
+    },
+    {
+      "time": 7,
+      "sender": "courier_3",
+      "receiver": "dispatcher",
+      "kind": "PICKED_UP",
+      "payload": {
+        "id": "O4"
+      }
+    },
+    {
+      "time": 7,
+      "sender": "courier_3",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          1,
+          1
+        ],
+        "idle": false
+      }
+    },
+    {
+      "time": 8,
+      "sender": "courier_1",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          5,
+          3
+        ],
+        "idle": false
+      }
+    },
+    {
+      "time": 8,
+      "sender": "courier_2",
+      "receiver": "dispatcher",
+      "kind": "PICKED_UP",
+      "payload": {
+        "id": "O5"
+      }
+    },
+    {
+      "time": 8,
+      "sender": "courier_2",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          6,
+          6
+        ],
+        "idle": false
+      }
+    },
+    {
+      "time": 8,
+      "sender": "courier_3",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          1,
+          3
+        ],
+        "idle": false
+      }
+    },
+    {
+      "time": 9,
+      "sender": "courier_1",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          5,
+          2
+        ],
+        "idle": false
+      }
+    },
+    {
+      "time": 9,
+      "sender": "courier_2",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          7,
+          6
+        ],
+        "idle": false
+      }
+    },
+    {
+      "time": 9,
+      "sender": "courier_3",
+      "receiver": "dispatcher",
+      "kind": "DELIVERED",
+      "payload": {
+        "id": "O4"
+      }
+    },
+    {
+      "time": 9,
+      "sender": "courier_3",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          1,
+          5
+        ],
+        "idle": true
+      }
+    },
+    {
+      "time": 10,
+      "sender": "courier_1",
+      "receiver": "dispatcher",
+      "kind": "DELIVERED",
+      "payload": {
+        "id": "O6"
+      }
+    },
+    {
+      "time": 10,
+      "sender": "courier_1",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          5,
+          1
+        ],
+        "idle": true
+      }
+    },
+    {
+      "time": 10,
+      "sender": "courier_2",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          8,
+          6
+        ],
+        "idle": false
+      }
+    },
+    {
+      "time": 11,
+      "sender": "courier_2",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          8,
+          7
+        ],
+        "idle": false
+      }
+    },
+    {
+      "time": 12,
+      "sender": "courier_2",
+      "receiver": "dispatcher",
+      "kind": "DELIVERED",
+      "payload": {
+        "id": "O5"
+      }
+    },
+    {
+      "time": 12,
+      "sender": "courier_2",
+      "receiver": "dispatcher",
+      "kind": "STATUS",
+      "payload": {
+        "position": [
+          8,
+          8
+        ],
+        "idle": true
+      }
+    }
+  ]
+}
