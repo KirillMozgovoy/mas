@@ -1,0 +1,9110 @@
+[
+  {
+    "seed": 0,
+    "protected": false,
+    "scenario": "normal",
+    "physical": 24,
+    "reported": 24,
+    "false_success": 0,
+    "false_reports": 0,
+    "unreported": 0,
+    "pending": 0,
+    "retries": 0,
+    "rejected": 0,
+    "messages": 72,
+    "trace": [
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 31,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 31,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 23,
+        "attempt": 1
+      }
+    ],
+    "durations": [
+      5,
+      5,
+      2,
+      4,
+      5,
+      5,
+      4,
+      5,
+      4,
+      3,
+      3,
+      4,
+      3,
+      2,
+      4,
+      3,
+      4,
+      2,
+      2,
+      4,
+      5,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "seed": 0,
+    "protected": true,
+    "scenario": "normal",
+    "physical": 24,
+    "reported": 24,
+    "false_success": 0,
+    "false_reports": 0,
+    "unreported": 0,
+    "pending": 0,
+    "retries": 0,
+    "rejected": 0,
+    "messages": 72,
+    "trace": [
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 31,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 31,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 23,
+        "attempt": 1
+      }
+    ],
+    "durations": [
+      5,
+      5,
+      2,
+      4,
+      5,
+      5,
+      4,
+      5,
+      4,
+      3,
+      3,
+      4,
+      3,
+      2,
+      4,
+      3,
+      4,
+      2,
+      2,
+      4,
+      5,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "seed": 0,
+    "protected": false,
+    "scenario": "lost_assign",
+    "physical": 23,
+    "reported": 23,
+    "false_success": 0,
+    "false_reports": 0,
+    "unreported": 0,
+    "pending": 1,
+    "retries": 0,
+    "rejected": 0,
+    "messages": 71,
+    "trace": [
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "DROP_ASSIGN",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 11,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 11,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 11,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 19,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 19,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 19,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 25,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 25,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 25,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 32,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 32,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 32,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 32,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 32,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 32,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 36,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 36,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 36,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 37,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 37,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 37,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 38,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 38,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 38,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 41,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 41,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 43,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 43,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 23,
+        "attempt": 1
+      }
+    ],
+    "durations": [
+      5,
+      5,
+      2,
+      4,
+      5,
+      5,
+      4,
+      5,
+      4,
+      3,
+      3,
+      4,
+      3,
+      2,
+      4,
+      3,
+      4,
+      2,
+      2,
+      4,
+      5,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "seed": 0,
+    "protected": true,
+    "scenario": "lost_assign",
+    "physical": 24,
+    "reported": 24,
+    "false_success": 0,
+    "false_reports": 0,
+    "unreported": 0,
+    "pending": 0,
+    "retries": 1,
+    "rejected": 0,
+    "messages": 75,
+    "trace": [
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "DROP_ASSIGN",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 8,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "REVOKE",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 8,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 0,
+        "attempt": 2
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 11,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 11,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 11,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 0,
+        "attempt": 2
+      },
+      {
+        "time": 13,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 0,
+        "attempt": 2
+      },
+      {
+        "time": 13,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 17,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 17,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 17,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 17,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 17,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 17,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 19,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 19,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 19,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 20,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 20,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 20,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 25,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 25,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 25,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 29,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 29,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 29,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 31,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 31,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 32,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 32,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 34,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 34,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 23,
+        "attempt": 1
+      }
+    ],
+    "durations": [
+      5,
+      5,
+      2,
+      4,
+      5,
+      5,
+      4,
+      5,
+      4,
+      3,
+      3,
+      4,
+      3,
+      2,
+      4,
+      3,
+      4,
+      2,
+      2,
+      4,
+      5,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "seed": 0,
+    "protected": false,
+    "scenario": "lost_done",
+    "physical": 24,
+    "reported": 23,
+    "false_success": 0,
+    "false_reports": 0,
+    "unreported": 1,
+    "pending": 1,
+    "retries": 0,
+    "rejected": 0,
+    "messages": 72,
+    "trace": [
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DROP_DONE",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 9,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 9,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 9,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 19,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 19,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 19,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 25,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 25,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 25,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 25,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 25,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 25,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 27,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 27,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 27,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 29,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 29,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 29,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 32,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 32,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 32,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 33,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 33,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 33,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 34,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 34,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 34,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 37,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 37,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 37,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 39,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 39,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 39,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 39,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 39,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 39,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 43,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 43,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 44,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 44,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 23,
+        "attempt": 1
+      }
+    ],
+    "durations": [
+      5,
+      5,
+      2,
+      4,
+      5,
+      5,
+      4,
+      5,
+      4,
+      3,
+      3,
+      4,
+      3,
+      2,
+      4,
+      3,
+      4,
+      2,
+      2,
+      4,
+      5,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "seed": 0,
+    "protected": true,
+    "scenario": "lost_done",
+    "physical": 24,
+    "reported": 24,
+    "false_success": 0,
+    "false_reports": 0,
+    "unreported": 0,
+    "pending": 0,
+    "retries": 0,
+    "rejected": 0,
+    "messages": 73,
+    "trace": [
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DROP_DONE",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 8,
+        "sender": "dispatcher",
+        "receiver": "environment",
+        "kind": "VERIFY_RECEIPT",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 8,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 9,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 9,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 9,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 17,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 17,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 17,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 20,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 20,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 20,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 20,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 20,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 20,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 20,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 20,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 20,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 25,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 25,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 25,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 32,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 32,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 33,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 33,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 23,
+        "attempt": 1
+      }
+    ],
+    "durations": [
+      5,
+      5,
+      2,
+      4,
+      5,
+      5,
+      4,
+      5,
+      4,
+      3,
+      3,
+      4,
+      3,
+      2,
+      4,
+      3,
+      4,
+      2,
+      2,
+      4,
+      5,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "seed": 0,
+    "protected": false,
+    "scenario": "crash",
+    "physical": 23,
+    "reported": 23,
+    "false_success": 0,
+    "false_reports": 0,
+    "unreported": 0,
+    "pending": 1,
+    "retries": 0,
+    "rejected": 0,
+    "messages": 71,
+    "trace": [
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 1,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "CRASH",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 11,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 11,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 11,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 19,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 19,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 19,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 25,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 25,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 25,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 32,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 32,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 32,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 32,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 32,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 32,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 36,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 36,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 36,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 37,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 37,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 37,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 38,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 38,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 38,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 41,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 41,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 43,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 43,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 23,
+        "attempt": 1
+      }
+    ],
+    "durations": [
+      5,
+      5,
+      2,
+      4,
+      5,
+      5,
+      4,
+      5,
+      4,
+      3,
+      3,
+      4,
+      3,
+      2,
+      4,
+      3,
+      4,
+      2,
+      2,
+      4,
+      5,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "seed": 0,
+    "protected": true,
+    "scenario": "crash",
+    "physical": 24,
+    "reported": 24,
+    "false_success": 0,
+    "false_reports": 0,
+    "unreported": 0,
+    "pending": 0,
+    "retries": 1,
+    "rejected": 0,
+    "messages": 75,
+    "trace": [
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 1,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "CRASH",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 8,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "REVOKE",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 0,
+        "attempt": 2
+      },
+      {
+        "time": 11,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 11,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 11,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 0,
+        "attempt": 2
+      },
+      {
+        "time": 15,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 0,
+        "attempt": 2
+      },
+      {
+        "time": 15,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 19,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 19,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 19,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 20,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 20,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 20,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 31,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 31,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 31,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 33,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 33,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 33,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 34,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 34,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 34,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 35,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 35,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 35,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 38,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 38,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 38,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 40,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 40,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 40,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 40,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 40,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 40,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 44,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 44,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 45,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 45,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 23,
+        "attempt": 1
+      }
+    ],
+    "durations": [
+      5,
+      5,
+      2,
+      4,
+      5,
+      5,
+      4,
+      5,
+      4,
+      3,
+      3,
+      4,
+      3,
+      2,
+      4,
+      3,
+      4,
+      2,
+      2,
+      4,
+      5,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "seed": 0,
+    "protected": false,
+    "scenario": "forged_done",
+    "physical": 24,
+    "reported": 24,
+    "false_success": 0,
+    "false_reports": 1,
+    "unreported": 0,
+    "pending": 0,
+    "retries": 0,
+    "rejected": 0,
+    "messages": 73,
+    "trace": [
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 1,
+        "sender": "outsider",
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 31,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 31,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 23,
+        "attempt": 1
+      }
+    ],
+    "durations": [
+      5,
+      5,
+      2,
+      4,
+      5,
+      5,
+      4,
+      5,
+      4,
+      3,
+      3,
+      4,
+      3,
+      2,
+      4,
+      3,
+      4,
+      2,
+      2,
+      4,
+      5,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "seed": 0,
+    "protected": true,
+    "scenario": "forged_done",
+    "physical": 24,
+    "reported": 24,
+    "false_success": 0,
+    "false_reports": 0,
+    "unreported": 0,
+    "pending": 0,
+    "retries": 0,
+    "rejected": 1,
+    "messages": 73,
+    "trace": [
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 1,
+        "sender": "outsider",
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 31,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 31,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 23,
+        "attempt": 1
+      }
+    ],
+    "durations": [
+      5,
+      5,
+      2,
+      4,
+      5,
+      5,
+      4,
+      5,
+      4,
+      3,
+      3,
+      4,
+      3,
+      2,
+      4,
+      3,
+      4,
+      2,
+      2,
+      4,
+      5,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "seed": 0,
+    "protected": false,
+    "scenario": "duplicate_done",
+    "physical": 24,
+    "reported": 24,
+    "false_success": 0,
+    "false_reports": 0,
+    "unreported": 0,
+    "pending": 0,
+    "retries": 0,
+    "rejected": 0,
+    "messages": 96,
+    "trace": [
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 31,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 31,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 31,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 23,
+        "attempt": 1
+      }
+    ],
+    "durations": [
+      5,
+      5,
+      2,
+      4,
+      5,
+      5,
+      4,
+      5,
+      4,
+      3,
+      3,
+      4,
+      3,
+      2,
+      4,
+      3,
+      4,
+      2,
+      2,
+      4,
+      5,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "seed": 0,
+    "protected": true,
+    "scenario": "duplicate_done",
+    "physical": 24,
+    "reported": 24,
+    "false_success": 0,
+    "false_reports": 0,
+    "unreported": 0,
+    "pending": 0,
+    "retries": 0,
+    "rejected": 24,
+    "messages": 96,
+    "trace": [
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 31,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 31,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 31,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 23,
+        "attempt": 1
+      }
+    ],
+    "durations": [
+      5,
+      5,
+      2,
+      4,
+      5,
+      5,
+      4,
+      5,
+      4,
+      3,
+      3,
+      4,
+      3,
+      2,
+      4,
+      3,
+      4,
+      2,
+      2,
+      4,
+      5,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "seed": 0,
+    "protected": false,
+    "scenario": "stale_done",
+    "physical": 24,
+    "reported": 24,
+    "false_success": 0,
+    "false_reports": 1,
+    "unreported": 0,
+    "pending": 0,
+    "retries": 0,
+    "rejected": 0,
+    "messages": 73,
+    "trace": [
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 1,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 0,
+        "attempt": 0
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 31,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 31,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 23,
+        "attempt": 1
+      }
+    ],
+    "durations": [
+      5,
+      5,
+      2,
+      4,
+      5,
+      5,
+      4,
+      5,
+      4,
+      3,
+      3,
+      4,
+      3,
+      2,
+      4,
+      3,
+      4,
+      2,
+      2,
+      4,
+      5,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "seed": 0,
+    "protected": true,
+    "scenario": "stale_done",
+    "physical": 24,
+    "reported": 24,
+    "false_success": 0,
+    "false_reports": 0,
+    "unreported": 0,
+    "pending": 0,
+    "retries": 0,
+    "rejected": 1,
+    "messages": 73,
+    "trace": [
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 0,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 1,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 0,
+        "attempt": 0
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 2,
+        "attempt": 1
+      },
+      {
+        "time": 2,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 0,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 1,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 5,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 3,
+        "attempt": 1
+      },
+      {
+        "time": 6,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 4,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 5,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 6,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 10,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 9,
+        "attempt": 1
+      },
+      {
+        "time": 13,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 8,
+        "attempt": 1
+      },
+      {
+        "time": 14,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 7,
+        "attempt": 1
+      },
+      {
+        "time": 15,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 10,
+        "attempt": 1
+      },
+      {
+        "time": 16,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 11,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 12,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 13,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 18,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 15,
+        "attempt": 1
+      },
+      {
+        "time": 21,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 14,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 16,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 22,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 17,
+        "attempt": 1
+      },
+      {
+        "time": 23,
+        "sender": "dispatcher",
+        "receiver": 1,
+        "kind": "ASSIGN",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 18,
+        "attempt": 1
+      },
+      {
+        "time": 24,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 19,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 21,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": "dispatcher",
+        "receiver": 0,
+        "kind": "ASSIGN",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 26,
+        "sender": "dispatcher",
+        "receiver": 2,
+        "kind": "ASSIGN",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 1,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 28,
+        "sender": 1,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 20,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": 0,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 30,
+        "sender": 0,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 22,
+        "attempt": 1
+      },
+      {
+        "time": 31,
+        "sender": 2,
+        "receiver": "environment",
+        "kind": "PHYSICAL_DELIVERY",
+        "job": 23,
+        "attempt": 1
+      },
+      {
+        "time": 31,
+        "sender": 2,
+        "receiver": "dispatcher",
+        "kind": "DONE",
+        "job": 23,
+        "attempt": 1
+      }
+    ],
+    "durations": [
+      5,
+      5,
+      2,
+      4,
+      5,
+      5,
+      4,
+      5,
+      4,
+      3,
+      3,
+      4,
+      3,
+      2,
+      4,
+      3,
+      4,
+      2,
+      2,
+      4,
+      5,
+      2,
+      4,
+      5
+    ]
+  }
+]
